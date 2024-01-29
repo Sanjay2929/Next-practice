@@ -1,8 +1,12 @@
+import StudentData from "./StudentData";
 
 const hero = () => {
-  return (
-    <div>hero</div>
-  )
-}
+  const AdmissionDetail = {
+    name: "Sanjay",
+    present: false,
+    rollnumber: 179,
+  };
+  return <StudentData AdmissionData={AdmissionDetail} />;
+};
 
-export default hero
+export default hero;

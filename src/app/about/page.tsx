@@ -1,9 +1,9 @@
-import AboutLayout from "@/components/about/AboutLayout";
+import Hero from "@/components/about/Hero";
 
 function page() {
   return (
     <>
-      <AboutLayout />
+      <Hero />
     </>
   );
 }
